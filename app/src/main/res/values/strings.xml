@@ -7,4 +7,6 @@
     <string name="shop">Shop</string>
     <string name="favorites">Favorites</string>
     <string name="cart">Cart</string>
+    <string name="new_tendencies">Nuevas tendencias</string>
+    <string name="description">Description</string>
 </resources>

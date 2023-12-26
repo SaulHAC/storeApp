@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.MainActivity">
+    tools:context=".ui.view.home.MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
@@ -31,10 +31,9 @@
             android:id="@+id/bottomNavView"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:layout_margin="0dp"
+            android:layout_marginTop="0dp"
             android:background="@color/white"
             app:itemIconTint="@color/bottom_nav_selector"
-            app:itemActiveIndicatorStyle="@color/red"
             app:labelVisibilityMode="unlabeled"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
